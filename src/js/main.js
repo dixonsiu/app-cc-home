@@ -185,7 +185,7 @@ ha.displaySystemMenuItems = function () {
         var app = systemMenuItems[i];
 
         var imgTag = $('<img>', {
-            src: 'https://demo.personium.io/HomeApplication/__/icons/' + app.icon,
+            src: 'https://demo-fi.personium.io/HomeApplication/__/icons/' + app.icon,
             class: 'p-app-icon'
         });
 

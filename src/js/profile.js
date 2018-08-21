@@ -6,8 +6,8 @@ addLoadScript = function (scriptList) {
     return scriptList;
 }
 addLoadStyleSheet = function (styleList) {
-    styleList.push("https://demo.personium.io/HomeApplication/__/appcell-resources/css/cropper/cropper.min.css");
-    styleList.push("https://demo.personium.io/HomeApplication/__/appcell-resources/css/cropper/cropper_circle_mask.css");
+    styleList.push("https://demo-fi.personium.io/HomeApplication/__/appcell-resources/css/cropper/cropper.min.css");
+    styleList.push("https://demo-fi.personium.io/HomeApplication/__/appcell-resources/css/cropper/cropper_circle_mask.css");
     return styleList;
 }
 

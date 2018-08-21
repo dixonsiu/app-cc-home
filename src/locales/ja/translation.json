@@ -187,7 +187,7 @@
     ,"mainTitle3": "アプリインストール"
     ,"mainTitle4": "インストール完了"
     ,"mainTitle5": "説明終了"
-    ,"loginTutorial1": "デモ版ではホームアプリの使い方についてご説明致します。<br />まずはログインするセルURLを入力しましょう。<br>今回はデモ用のセルURL:<br>https://demo.personium.io/democell/<br>にログインしてみます。"
+    ,"loginTutorial1": "デモ版ではホームアプリの使い方についてご説明致します。<br />まずはログインするセルURLを入力しましょう。<br>今回はデモ用のセルURL:<br>https://demo-fi.personium.io/democell/<br>にログインしてみます。"
     ,"loginTutorial2": "これでログイン対象のセルへアクセス出来ました。<br>ではセルへログインしてみましょう。<br>今回のセルへのログインID及びPASSは<br>ID:me<br>PW:democell<br>になります。"
     ,"loginTutorial3": "以上でデモホームアプリの説明を終了します。"
     ,"mainTutorial1": "ログインに成功しました。<br>次にホームアプリの機能について説明します。<br>右上のメニューアイコンを選択して下さい。"

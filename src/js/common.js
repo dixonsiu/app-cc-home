@@ -3,9 +3,9 @@ cm.imgBinaryFile = null;
 cm.user = JSON.parse(sessionStorage.getItem("sessionData"));
 
 // Do not display the following boxes in the installed list section
-cm.boxIgnoreList = ['https://demo.personium.io/app-cc-home/'];
+cm.boxIgnoreList = ['https://demo-fi.personium.io/app-cc-home/'];
 cm.logoutUrl = null;
-cm.homeAppUrl = "https://demo.personium.io/app-cc-home/";
+cm.homeAppUrl = "https://demo-fi.personium.io/app-cc-home/";
 
 // Logout
 cm.logout = function () {
@@ -63,8 +63,8 @@ cm.setUserDate = function (data) {
     cm.user.nowTitle = {};
     cm.user.settingNowPage = 0;
     cm.user.settingNowTitle = {};
-    cm.defaultRoleIcon = "https://demo.personium.io/app-cc-home/__/html/img/role_default.png";
-    cm.notAppImage = "https://demo.personium.io/HomeApplication/__/icons/no_app_image.png";
+    cm.defaultRoleIcon = "https://demo-fi.personium.io/app-cc-home/__/html/img/role_default.png";
+    cm.notAppImage = "https://demo-fi.personium.io/HomeApplication/__/icons/no_app_image.png";
     cm.cellUrl = cm.user.cellUrl;
     cm.userName = cm.user.userName;
     cm.profDispName = cm.user.profile.DisplayName;
@@ -574,7 +574,7 @@ cm.getAppListURL = function () {
         filter = "?$filter=Type%20eq%20null%20or%20Type%20eq%20'Organization'%20";
     }
 
-    let appListURL = ['https://demo.personium.io/market/__/applist/Apps', filter].join("");
+    let appListURL = ['https://demo-fi.personium.io/market/__/applist/Apps', filter].join("");
 
     return appListURL;
 };
@@ -658,7 +658,7 @@ cm.execApp = function (aDom) {
         window.location.href = url; // launch native App
     }
 
-    if (isDemo && launchUrl.startsWith('https://demo.personium.io/app-myboard/')) {
+    if (isDemo && launchUrl.startsWith('https://demo-fi.personium.io/app-myboard/')) {
         demoSession.sideMenu = true;
         sessionStorage.setItem("demoSession", JSON.stringify(demoSession));
         demo.showModal('#modal-logout-start');

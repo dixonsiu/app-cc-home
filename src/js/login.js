@@ -51,7 +51,7 @@ lg.initTarget = function () {
         });
         $("#gLogin").on("click", function (e) {
             var homeUrl = location.href;
-            var url = "https://accounts.google.com/o/oauth2/v2/auth?client_id=102363313215-408im4hc7mtsgrda4ratkro2thn58bcd.apps.googleusercontent.com&response_type=code+id_token&scope=openid%20email%20profile&redirect_uri=https%3a%2f%2fdemo%2epersonium%2eio%2fapp%2dcc%2dhome%2f__%2fhtml%2fhomeapp_google_auth%2ehtml&display=popup&nonce=personium&state=" + homeUrl;
+            var url = "https://accounts.google.com/o/oauth2/v2/auth?client_id=102363313215-408im4hc7mtsgrda4ratkro2thn58bcd.apps.googleusercontent.com&response_type=code+id_token&scope=openid%20email%20profile&redirect_uri=https%3a%2f%2fdemo-fi%2epersonium%2eio%2fapp%2dcc%2dhome%2f__%2fhtml%2fhomeapp_google_auth%2ehtml&display=popup&nonce=personium&state=" + homeUrl;
             window.location.href = url;
         });
 
@@ -108,7 +108,7 @@ lg.targetCellLogin = function(tempUrl) {
 lg.cellUrl = function() {
     var u = location.href;
     if (u.indexOf("file:") == 0) {
-        return "https://demo.personium.io/HomeApplication/";
+        return "https://demo-fi.personium.io/HomeApplication/";
     }
 
     var tempUrl = ut.cellUrlWithEndingSlash(u, true);
